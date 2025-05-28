@@ -1,5 +1,6 @@
 export const heroDetails = {
-    heading: 'Smart, Secure, Simple Financial Management',
-    subheading: 'From effortless budgeting to real-time investment insights, Finwise puts you in control of your money like never before',
-    centerImageSrc: '/images/hero-mockup.webp',
-}
+  heading: "Nomoo: Your AI Vegan Food App",
+  subheading:
+    "From effortless carbon footprint tracking to real-time vegan food choice, Nomoo puts you in control of your food choices like never before",
+  centerImageSrc: "/images/hero-mockup.webp",
+};
