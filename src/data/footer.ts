@@ -1,37 +1,45 @@
-import { IMenuItem, ISocials } from "@/types";
+import { IMenuItem, ISocials } from '@/types'
 
 export const footerDetails: {
-    subheading: string;
-    quickLinks: IMenuItem[];
-    email: string;
-    telephone: string;
-    socials: ISocials;
+  subheading: string
+  quickLinks: IMenuItem[]
+  email: string
+  telephone: string
+  socials: ISocials
 } = {
-    subheading: "Empowering businesses with cutting-edge financial technology solutions.",
-    quickLinks: [
-        {
-            text: "Features",
-            url: "#features"
-        },
-        {
-            text: "Pricing",
-            url: "#pricing"
-        },
-        {
-            text: "Testimonials",
-            url: "#testimonials"
-        }
-    ],
-    email: 'address@yoursite.com',
-    telephone: '+1 (123) 456-7890',
-    socials: {
-        // github: 'https://github.com',
-        // x: 'https://twitter.com/x',
-        twitter: 'https://twitter.com/Twitter',
-        facebook: 'https://facebook.com',
-        // youtube: 'https://youtube.com',
-        linkedin: 'https://www.linkedin.com',
-        // threads: 'https://www.threads.net',
-        instagram: 'https://www.instagram.com',
-    }
+  subheading:
+    'Empowering professionals with cutting-edge AI tools and training.',
+  quickLinks: [
+    {
+      text: 'Home',
+      url: '#home',
+    },
+    {
+      text: 'About Us',
+      url: '#about',
+    },
+    {
+      text: 'Courses',
+      url: '#programs',
+    },
+    {
+      text: 'Contact',
+      url: '#contact',
+    },
+    {
+      text: 'Privacy Policy',
+      url: '/privacy-policy',
+    },
+    {
+      text: 'Terms & Conditions',
+      url: '/terms',
+    },
+  ],
+  email: 'admin@learnyatra.com',
+  telephone: '+91 9606617007',
+  socials: {
+    linkedin: 'https://www.linkedin.com',
+    instagram: 'https://www.instagram.com',
+    facebook: 'https://facebook.com',
+  },
 }

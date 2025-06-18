@@ -1,25 +1,63 @@
-import { IFAQ } from "@/types";
-import { siteDetails } from "./siteDetails";
+import { IFAQ } from '@/types'
 
 export const faqs: IFAQ[] = [
-    {
-        question: `Is ${siteDetails.siteName} secure?`,
-        answer: 'Absolutely. We use bank-level encryption to protect your data and never store your login information. Plus, our biometric authentication adds an extra layer of security.',
-    },
-    {
-        question: `Can I use ${siteDetails.siteName} on multiple devices?`,
-        answer: 'Absolutely! Your Finwise account syncs seamlessly across all your devices - smartphone, tablet, and computer.',
-    },
-    {
-        question: 'Can I connect all my bank accounts?',
-        answer: `Yes! ${siteDetails.siteName} supports connections with over 10,000 financial institutions worldwide. Simply log in through our secure portal to link your accounts.`
-    },
-    {
-        question: 'Do I need any financial expertise to use the investing features?',
-        answer: 'Not at all! Our expert-curated portfolios and educational resources make investing accessible to everyone, regardless of experience level.',
-    },
-    {
-        question: 'What if I need help using the app?',
-        answer: 'Our dedicated support team is available 24/7 via chat or email. Plus, we offer extensive in-app tutorials and a comprehensive knowledge base to help you make the most of Finwise.'
-    }
-];
+  {
+    question: 'Why should I learn these technologies?',
+    answer:
+      'Our programs are designed for industry professionals, college graduates, and lifelong learners who want practical, tool-focused skills applicable immediately on the job.',
+  },
+  {
+    question: 'Are these courses live or self-paced?',
+    answer:
+      'Courses are conducted live with supplementary self-paced video modules and lifetime access. Live doubt-clearing sessions ensure continued instructor support.',
+  },
+  {
+    question: 'Do I get a certificate?',
+    answer:
+      'Yes. Upon successful completion of assessments and projects, a digitally verifiable Learn Yatra certificate is awarded.',
+  },
+  {
+    question: 'What payment options are available?',
+    answer:
+      'We support credit/debit cards, UPI, net banking, and no-cost EMI for select courses.',
+  },
+  {
+    question: 'What is the refund policy?',
+    answer: 'All payments are non-refundable.',
+  },
+  {
+    question: 'How long do I retain access to course materials?',
+    answer:
+      'Lifetime access—even post-completion, learners can revisit all resources.',
+  },
+  {
+    question: 'What if I get stuck or need help?',
+    answer:
+      'A 24/7 live chat is available. Our mentor team responds within an hour on weekdays.',
+  },
+  {
+    question: 'Are there any prerequisites?',
+    answer:
+      'Each course has specific prerequisites. Beginner tracks require no prior experience, while advanced modules may require programming/domain knowledge.',
+  },
+  {
+    question: 'Will I work on real projects?',
+    answer:
+      'Yes. Every program includes capstone projects based on real-world scenarios.',
+  },
+  {
+    question: 'Can my company sponsor or bulk-enroll employees?',
+    answer:
+      'Absolutely. We offer corporate training bundles with team analytics and dedicated cohorts.',
+  },
+  {
+    question: 'Do you provide career support?',
+    answer:
+      'Select programs include resume reviews, mock interviews, and access to hiring partners.',
+  },
+  {
+    question: 'How is Learn Yatra different from other platforms?',
+    answer:
+      'We offer concise, personalized, and tool-centric learning paths, live mentorship, and content co-created with industry leaders.',
+  },
+]

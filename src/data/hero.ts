@@ -1,6 +1,6 @@
 export const heroDetails = {
-  heading: "Nomoo: Your AI Vegan Food App",
+  heading: 'Master AI-powered Tools for Operational Efficiency',
   subheading:
-    "From effortless carbon footprint tracking to real-time vegan food choice, Nomoo puts you in control of your food choices like never before",
-  centerImageSrc: "/images/hero-mockup.webp",
-};
+    'Bridge the gap between innovation and execution with cutting-edge AI tools.',
+  centerImageSrc: '/images/hero-mockup.webp',
+}
