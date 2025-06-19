@@ -1,18 +1,18 @@
-import React from 'react'
-import Container from './Container'
-import Section from './Section'
+import React from "react";
+import Container from "./Container";
+import Section from "./Section";
 
 const About: React.FC = () => {
   return (
     <Section
-      id='about'
-      title='Who We Are'
-      description='We are a pioneering E-learning platform dedicated to empowering industrial professionals with high-quality training in AI-powered tools.'
+      id="about"
+      title="Who We Are"
+      description="We are a pioneering E-learning platform dedicated to empowering industrial professionals with high-quality training in AI-powered tools."
     >
       <Container>
-        <div className='max-w-4xl mx-auto'>
-          <div className='mt-12 space-y-8'>
-            <div className='prose prose-lg max-w-none'>
+        <div className="max-w-4xl mx-auto">
+          <div className="mt-12 space-y-8">
+            <div className="prose prose-lg max-w-none">
               <p>
                 We recognize the transformative impact of Artificial
                 Intelligence across industries and are committed to equipping
@@ -23,11 +23,11 @@ const About: React.FC = () => {
               </p>
             </div>
 
-            <div className='mt-12'>
-              <h3 className='text-2xl font-bold text-foreground mb-6'>
+            <div className="mt-12">
+              <h3 className="text-2xl font-bold text-foreground mb-6">
                 Our Mission
               </h3>
-              <div className='prose prose-lg max-w-none space-y-4'>
+              <div className="prose prose-lg max-w-none space-y-4">
                 <p>
                   At Learn Yatra, we believe education is not just about
                   employment—it&apos;s about empowerment.
@@ -52,12 +52,12 @@ const About: React.FC = () => {
                   Our hands-on, project-based learning approach provides
                   real-world exposure in cutting-edge technologies like:
                 </p>
-                <ul className='list-disc pl-6 space-y-2'>
+                <ul className="list-disc pl-6 space-y-2">
                   <li>Generative AI</li>
                   <li>Blockchain Technology</li>
                   <li>Data Science and Analytics</li>
                 </ul>
-                <p className='font-semibold'>
+                <p className="font-semibold">
                   We are not just another E-learning platform.
                   <br />
                   We are a movement to unlock the creator in every learner.
@@ -68,7 +68,7 @@ const About: React.FC = () => {
         </div>
       </Container>
     </Section>
-  )
-}
+  );
+};
 
-export default About
+export default About;
