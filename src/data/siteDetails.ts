@@ -3,9 +3,9 @@ export const siteDetails = {
   siteDescription: "Master AI-powered Tools for Operational Efficiency",
   siteUrl: "https://www.learnyatra.com",
   metadata: {
-    title: "Finwise - Next.js and Tailwind CSS Landing Page Template",
+    title: "Learn Yatra - Master AI-powered Tools for Operational Efficiency",
     description:
-      "Finwise empowers businesses with cutting-edge technology solutions to drive success and efficiency.",
+      "Bridge the gap between innovation and execution with cutting-edge AI tools and technology solutions to drive success and efficiency.",
   },
   language: "en-us",
   locale: "en-US",
