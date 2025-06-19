@@ -6,6 +6,7 @@ import Container from '@/components/Container'
 import Section from '@/components/Section'
 import CTA from '@/components/CTA'
 import Testimonials from '@/components/Testimonials'
+import Image from 'next/image'
 
 const HomePage: React.FC = () => {
   return (
@@ -99,31 +100,62 @@ const HomePage: React.FC = () => {
           title='Colleges & University Collaborations'
           description='Partnering with leading institutions to provide quality education'
         >
-          <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8'>
-            {/* Add university logos here */}
-            <div className='p-4 border rounded-lg text-center'>
-              <p className='text-lg font-semibold'>University 1</p>
-              <p className='text-sm text-foreground-accent'>
+          <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8'>
+            <div className='p-6 bg-white border rounded-xl shadow-md flex flex-col items-center transition-transform hover:scale-105 hover:shadow-lg'>
+              <div className='flex-1 flex items-center justify-center mb-4 h-28'>
+                <Image
+                  src='/LEARN YATRA[1].png'
+                  alt='Salesian College'
+                  width={120}
+                  height={80}
+                  className='object-contain max-h-24'
+                />
+              </div>
+              <span className='inline-block px-3 py-1 rounded-full text-xs font-semibold bg-[#bf5104] text-white mt-2'>
                 Certified Partner
-              </p>
+              </span>
             </div>
-            <div className='p-4 border rounded-lg text-center'>
-              <p className='text-lg font-semibold'>University 2</p>
-              <p className='text-sm text-foreground-accent'>
+            <div className='p-6 bg-white border rounded-xl shadow-md flex flex-col items-center transition-transform hover:scale-105 hover:shadow-lg'>
+              <div className='flex-1 flex items-center justify-center mb-4 h-28'>
+                <Image
+                  src='/reva_university-removebg-preview[1].png'
+                  alt='REVA University'
+                  width={120}
+                  height={80}
+                  className='object-contain max-h-24'
+                />
+              </div>
+              <span className='inline-block px-3 py-1 rounded-full text-xs font-semibold bg-blue-600 text-white mt-2'>
                 Academic Collaborator
-              </p>
+              </span>
             </div>
-            <div className='p-4 border rounded-lg text-center'>
-              <p className='text-lg font-semibold'>University 3</p>
-              <p className='text-sm text-foreground-accent'>
+            <div className='p-6 bg-white border rounded-xl shadow-md flex flex-col items-center transition-transform hover:scale-105 hover:shadow-lg'>
+              <div className='flex-1 flex items-center justify-center mb-4 h-28'>
+                <Image
+                  src='/st francis logo[1].png'
+                  alt='St. Francis College'
+                  width={120}
+                  height={80}
+                  className='object-contain max-h-24'
+                />
+              </div>
+              <span className='inline-block px-3 py-1 rounded-full text-xs font-semibold bg-[#bf5104] text-white mt-2'>
                 Certified Partner
-              </p>
+              </span>
             </div>
-            <div className='p-4 border rounded-lg text-center'>
-              <p className='text-lg font-semibold'>University 4</p>
-              <p className='text-sm text-foreground-accent'>
+            <div className='p-6 bg-white border rounded-xl shadow-md flex flex-col items-center transition-transform hover:scale-105 hover:shadow-lg'>
+              <div className='flex-1 flex items-center justify-center mb-4 h-28'>
+                <Image
+                  src='/CIS LOGO[1].png'
+                  alt='Techno India Centre for Innovative Studies'
+                  width={120}
+                  height={80}
+                  className='object-contain max-h-24'
+                />
+              </div>
+              <span className='inline-block px-3 py-1 rounded-full text-xs font-semibold bg-blue-600 text-white mt-2'>
                 Academic Collaborator
-              </p>
+              </span>
             </div>
           </div>
         </Section>
