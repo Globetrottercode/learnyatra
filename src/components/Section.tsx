@@ -17,7 +17,7 @@ const Section: React.FC<React.PropsWithChildren<Props>> = ({
       <SectionTitle>
         <h2 className="text-center text-[#bf5104] mb-4">{title}</h2>
       </SectionTitle>
-      <p className="mb-12 text-center font-bold [font-family:var(--font-red-hat-display)]">{description}</p>
+      <p className="mb-12 text-center font-bold">{description}</p>
       {children}
     </section>
   );
