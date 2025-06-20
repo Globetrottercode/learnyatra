@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { GoogleAnalytics } from '@next/third-parties/google';
-import { Source_Sans_3, Manrope } from "next/font/google";
+import { Source_Sans_3, Red_Hat_Display } from "next/font/google";
 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -8,8 +8,12 @@ import { siteDetails } from '@/data/siteDetails';
 
 import "./globals.css";
 
-const manrope = Manrope({ subsets: ['latin'] });
 const sourceSans = Source_Sans_3({ subsets: ['latin'] });
+const redHatDisplay = Red_Hat_Display({ 
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-red-hat-display'
+});
 
 export const metadata: Metadata = {
   title: siteDetails.metadata.title,
@@ -43,9 +47,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${manrope.className} ${sourceSans.className} antialiased`}
-      >
+      <body className={`${sourceSans.className} ${redHatDisplay.variable} antialiased`}>
         {siteDetails.googleAnalyticsId && <GoogleAnalytics gaId={siteDetails.googleAnalyticsId} />}
         <Header />
         <main>
