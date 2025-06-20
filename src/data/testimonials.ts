@@ -21,24 +21,24 @@ export const testimonials: ITestimonial[] = [
   //     avatar: '/images/testimonial-3.webp',
   //   },
   {
-    name: "Sumona Mondal",
+    name: "Suman Mondal",
     role: "Amazon, SDE 1",
     message:
       "Designed for modern professionals, this platform delivers practical AI training. Courses are built around real-world tools to develop in-demand skills. A forward-thinking resource for those navigating the evolving tech landscape.",
-    avatar: "/images/sumona.png",
+    avatar: "/images/Suman.png",
   },
   {
-    name: "Bikram Aditya Chatterjee",
-    role: "Netflix, SDE 1",
+    name: "Akshata",
+    role: "JP Morgan, SDE II",
     message:
       "Crafted for today's professionals, this platform offers hands-on AI training focused on real-world tools and applications. Its courses are designed to build high-demand skills, making it a future-ready resource for those adapting to the fast-changing tech landscape.",
-    avatar: "/images/bikram.png",
+    avatar: "/images/akshata.png",
   },
   {
-    name: "Rituraj Sinha",
-    role: "Perplexity, SDE 1",
+    name: "Satabrata paul",
+    role: "Atlan, SDE II",
     message:
       "Built for modern go-getters, this platform makes learning AI fun and practical. With real-world tools and hands-on projects, you'll pick up in-demand skills while staying ahead in today's fast-moving tech world.",
-    avatar: "/images/rituraj.png",
+    avatar: "/images/satabrata.png",
   },
 ];
