@@ -45,10 +45,10 @@ const Hero: React.FC = () => {
         </div>
         <Image
           src={heroDetails.centerImageSrc}
-          width={384}
-          height={340}
+          width={500}
+          height={500}
           quality={100}
-          sizes='(max-width: 768px) 100vw, 384px'
+          sizes='(max-width: 768px) 100vw, 500px'
           priority={true}
           unoptimized={true}
           alt='app mockup'

@@ -57,14 +57,14 @@ const Header: React.FC = () => {
             <button
               onClick={toggleMenu}
               type="button"
-              className="bg-primary text-black focus:outline-none rounded-full w-10 h-10 flex items-center justify-center"
+              className="bg-[#bf5104] text-white focus:outline-none rounded-full w-10 h-10 flex items-center justify-center"
               aria-controls="mobile-menu"
               aria-expanded={isOpen}
             >
               {isOpen ? (
-                <HiOutlineXMark className="h-6 w-6" aria-hidden="true" />
+                <HiOutlineXMark className="h-6 w-6" aria-hidden="true" color="white"/>
               ) : (
-                <HiBars3 className="h-6 w-6" aria-hidden="true" />
+                <HiBars3 className="h-6 w-6" aria-hidden="true" color="white" />
               )}
               <span className="sr-only">Toggle navigation</span>
             </button>
